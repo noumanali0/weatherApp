@@ -2,7 +2,7 @@ import react, { useState, useEffect } from "react";
 import axios from "axios";
 
 const Apidata = () => {
-  const [currentData, setCurrentData] = useState("Daharki");
+  const [currentData, setCurrentData] = useState("Karachi");
   const [city, setCity] = useState(null);
 
   useEffect(() => {
